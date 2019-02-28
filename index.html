@@ -1,0 +1,68 @@
+<!-- zadanie 12 ver2 - stoper -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <style>
+		*{
+			box-sizing: border-box;
+		}
+		.container{
+			width: 600px;			 
+			margin: 15px auto;
+			font-size: 25px;
+			font-family: monospace;
+			letter-spacing: 1px;
+		}
+		
+		ul{
+			list-style-type:decimal;			
+		}
+		ul li{
+			padding: 10px;
+		}
+		form{
+			display: inline-block;			
+		}
+		form input{
+			width: 200px;
+			height: 45px;
+			padding: 5px;
+			font-size: 25px;
+			font-family: monospace;
+		}
+		button{
+			border:0;
+			cursor: pointer;
+			font-size: 25px;
+			font-family: monospace;
+		}
+		button[type="submit"]{
+			height: 45px;
+			padding: 0 25px; 			
+		}
+		
+    </style>
+</head>
+
+<body>   
+	<div class="container">
+		<form action="" class="tasks">
+			<input type="text">
+			<button type="submit">Dodaj</button>
+		</form>
+		<form action="" class="search">
+			<input type="text" placeholder="szukaj..."> 
+		</form>
+		<ul>
+		</ul>
+		</div>
+	<script src="main.js">
+	</script>
+</body>
+
+</html>
